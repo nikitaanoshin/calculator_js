@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  font-family: 'Playfair Display';
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calculator {
+  margin: 170px auto;
+}
+
+input {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55%;
+  border: 2px;
+  border-radius: 10px;
+  background-color: #074b83;
+  color: #fff;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input::-ms-input-placeholder {
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input::placeholder {
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-ms-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+button {
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #18b5a4;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #074b83;
+}
