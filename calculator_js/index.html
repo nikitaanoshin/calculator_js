@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="calculator">
+			<h1>Введите два числа, и я посчитаю процент!</h1>
+			<p>Если Вы хотите узнать, какой процент составляет одно число от другого, то смело вписывайте их в поля ввода!</p>
+			<p>Если Вы хотите узнать, какое число равно проценту от главного числа, то оставьте второе поле пустым!</p>
+
+			<input type="text" id="firstNumber" placeholder="От этого числа будет считаться процент">
+
+			<input type="text" id="secondNumber" placeholder="Напишите нужное число">
+
+			<input type="text" id="percent" placeholder="Напишите процент">
+
+			<button type="submit" onclick="solution()">Рассчитать!</button>
+
+			<br>
+
+			<span class="word">Результат: </span><span id="result" class="result"></span>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
